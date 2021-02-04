@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users',
+    'oauth2_provider',
 ]
 
 MIDDLEWARE = [
@@ -105,6 +106,8 @@ AUTH_USER_MODEL = 'users.User'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
+
+LOGIN_URL='/admin/login/'
 
 LANGUAGE_CODE = 'en-us'
 
